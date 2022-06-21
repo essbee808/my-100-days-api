@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_06_21_194646) do
+ActiveRecord::Schema.define(version: 2022_06_21_223239) do
 
   create_table "entries", force: :cascade do |t|
     t.string "gratitude"
@@ -29,6 +29,8 @@ ActiveRecord::Schema.define(version: 2022_06_21_194646) do
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "username"
+    t.string "password_digest"
   end
 
   add_foreign_key "entries", "users"
