@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  gratitude: MyString
+  overall_goal: MyString
+  highlights: MyText
+  struggles: MyText
+  solutions: MyText
+  final_thoughts: MyText
+  user: one
+
+two:
+  gratitude: MyString
+  overall_goal: MyString
+  highlights: MyText
+  struggles: MyText
+  solutions: MyText
+  final_thoughts: MyText
+  user: two
