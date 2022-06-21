@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+User.create(name: "Test User")
+
+Entry.create(
+    gratitude: "I am grateful for coffee.",
+    overall_goal: "My goal is to finish Flatiron School.",
+    highlights: "I woke up early and walked my dog. I followed through with my morning routine.",
+    struggles: "No struggles at the moment.",
+    solutions: "Wake up even earlier.",
+    final_thoughts: "I got this.",
+    user_id: 1
+)
